@@ -1,5 +1,5 @@
 body{
-  background-color: #131313;
+  background-color: #1f1e1e;
 }
 html{
   font-size: 60%;
@@ -8,7 +8,7 @@ html{
 /* navbar start */
 .logo{
   transition: 
-  0.4s ease;
+  0.5s ease;
 }
 .logo:hover{
   transform: scale(1.1);
@@ -17,6 +17,81 @@ html{
   /* shadow: 0 0 25px #00ffee; */
   text-shadow: 0 0 25px #00ffee;
 }
+.nav-animation{
+  transition: 
+  0.3s ease-in-out;
+}
+.nav-animation:hover{
+  transform: scaleY(1.2);
+  cursor: pointer;
+}
 /* navbar end */
 /* header start */
+.animatiom {
+  transition: 0.6s ease-in-out;
+}
+.animatiom:hover{
+transform: translateY(-15%);
+background-color: #00ffee;
+box-shadow: 0 0 25px #00ffee;
+color:black;
+}
+.custom-shadow1 {
+  /* shadow: 0 0 25px #00ffee; */
+  box-shadow: 0 0 25px #00ffee;
+}
+.text-animation span{
+  position: relative;
+  
+}
+.text-animation span::before{
+  content: "web";
+  color:#00ffee;
+  animation: words 20s infinite;
+
+}
+.text-animation span::after{
+  content: "";
+  background-color: #1f1e1e;
+  position: absolute;
+  width:calc(100% + 10px);
+
+  height: 8vh;
+  border-left: 3px solid black;
+  right: -8px;
+  animation: cursor 0.6s infinite,typing 20s steps(21) infinite;
+}
+@keyframes cursor {
+  to{
+    border-left: 2px solid #00ffee;
+  }
+  
+}
+@keyframes words {
+  0%, 20% {
+    content: "Frontend Developer";
+  }
+  21%, 40% {
+    content: "Web Designer";
+  }
+  41%, 60% {
+    content: "Web Developer";
+  }
+  61%, 80% {
+    content: "Software Tester";
+  }
+  81%, 100% {
+    content: "Full Stack Developer";
+  }
+
+}
+@keyframes typing {
+  10%,15%,
+  30%,35%,50%,55%,70%,75%,90%,95%{
+    width: 0;
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+    width: calc(100% + 8px);
+  }
+}
 /* header end */
