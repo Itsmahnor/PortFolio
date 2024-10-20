@@ -1,6 +1,6 @@
 function Component({children}) {
   return ( 
-    <div className="w-100 h-auto px-[15rem] py-6">{children}</div>
+    <div className="w-100 h-auto md:px-[15rem] px-2 py-4">{children}</div>
    );
 }
 

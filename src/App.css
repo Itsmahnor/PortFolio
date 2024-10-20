@@ -25,6 +25,37 @@ html{
   transform: scaleY(1.2);
   cursor: pointer;
 }
+/* Mobile Nav  start*/
+.Transition {
+  height: 2vh;
+  animation: Height 0.5s ease-in-out forwards;
+}
+
+@keyframes Height {
+  to {
+    height: 10vh;
+    color:black;
+    border-bottom: black;
+    font-size: 2rem;
+display: grid;
+
+  }
+}
+.NOTransition{
+  height: 10vh;
+  font-size: 0.5rem;
+  animation: HeightRemove 0.8s ease-in-out forwards;
+}
+@keyframes HeightRemove {
+  to{
+    height:0;
+    background-color: #00ffee;
+   
+  }
+}
+
+
+/* Mobile nav end */
 /* navbar end */
 /* header start */
 .animatiom {
@@ -158,7 +189,7 @@ text-align: right;
   .timeline-content{
     background-color: black ;
     border: 3px solid #00ffee;
-    padding: 30px 50px;
+    padding: 15px 30px;
     box-shadow: 0 0 10px #00ffee;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -167,18 +198,19 @@ text-align: right;
     transform: scale(1.05);
     box-shadow: 0 0 25px #00ffee;
   }
-  .timeline-content h3{
-    font-size: 20px;
+  .timeline-content head{    font-size: 20px;
     color: white;
     margin: 0 0  10px;
     font-weight: 500;
   }
   .timeline-content p{
-    /* color: white; */
+   
     
     font-weight: 300;
     line-height: 22px;
   }
+/* Education Ends */
+/*  */
   ::-webkit-scrollbar{
     width: 15px;
   }
@@ -191,5 +223,19 @@ text-align: right;
    width: 50px;
   }
   
+  /* Responsiveness */
+ .Menu{
+  display: none;
+ }
+ .Hidden{
+  display: none;
+ }
+ @media (max-width:1052px) {
+  .nav{
+    display: none;
+  }
+  .Menu{
+    display: block;
+  }
   
-  
+ }
