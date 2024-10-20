@@ -1,0 +1,48 @@
+.logo{
+  transition: 
+  0.5s ease;
+}
+.logo:hover{
+  transform: scale(1.1);
+}
+.custom-shadow {
+  /* shadow: 0 0 25px #00ffee; */
+  text-shadow: 0 0 25px #00ffee;
+}
+.nav-animation{
+  transition: 
+  0.3s ease-in-out;
+}
+.nav-animation:hover{
+  transform: scaleY(1.2);
+  cursor: pointer;
+}
+/* Mobile Nav  start*/
+.Transition {
+  height: 2vh;
+  animation: Height 0.5s ease-in-out forwards;
+}
+
+@keyframes Height {
+  to {
+    height: 10vh;
+    color:black;
+    border-bottom: black;
+    font-size: 2rem;
+display: grid;
+
+  }
+}
+.NOTransition{
+  height: 10vh;
+  font-size: 0.5rem;
+  animation: HeightRemove 0.8s ease-in-out forwards;
+}
+@keyframes HeightRemove {
+  to{
+    height:0;
+    background-color: #00ffee;
+   
+  }
+}
+

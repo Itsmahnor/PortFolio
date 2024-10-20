@@ -1,6 +1,7 @@
 import React from "react";
-import educationData from "./EducationData.json"; // Adjust the path accordingly
-import Component from "../Reuseable/Component";
+import educationData from "./EducationData.json"; 
+import Component from "../../Reuseable/Component";
+import './Education.css'
 
 function Education() {
   return ( 

@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Component from "../Reuseable/Component";
+import Component from "../../Reuseable/Component";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 import MobileNav from "./MobileNav";
-
+import './Navbar.css'
 function NavBar() {
   const[Menu,setMenu]=useState(false);
   const ToggleBtn=()=>{

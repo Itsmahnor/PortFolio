@@ -1,5 +1,6 @@
-import Component from "../Reuseable/Component";
+import Component from "../../Reuseable/Component";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import './Header.css'
 function Header() {
   return ( 
     <Component>
