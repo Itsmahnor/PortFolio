@@ -4,7 +4,7 @@ import './Header.css'
 function Header() {
   return ( 
     <Component>
-      <div className="md:w-[100%] w-[100vw] h-[90vh] flex justify-center  items-center ">
+      <div className="   md:w-[100%] w-[100vw] h-[90vh] flex justify-center  items-center " id="home">
         <div className="md:w-[50%] flex flex-col gap-2 text-center">
       <h1 className="text-[6rem] font-bold ">Hi, it's <span className="text-[#00ffee]">Mahnoor</span></h1>
       <h2 className="text-[3rem] font-bold text-animation">

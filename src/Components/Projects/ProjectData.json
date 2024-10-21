@@ -1,0 +1,30 @@
+[
+  {
+    "title": "E-Commerce Website",
+    "description": "An online platform that allows users to shop for products and .",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "Untitled.png",
+    "github": "https://github.com/your-repo/e-commerce"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "A personal website that showcases my work and skills.",
+    "technologies": ["React", "Tailwind", "JavaScript"],
+    "image": "Untitled.png",
+    "github": "https://github.com/your-repo/portfolio"
+  },
+  {
+    "title": "Task Management App",
+    "description": "A productivity tool to manage and organize tasks efficiently.",
+    "technologies": ["React", "Node.js", "MongoDB"],
+    "image": "Untitled.png",
+    "github": "https://github.com/your-repo/task-manager"
+  },
+  {
+    "title": "Blog Platform",
+    "description": "A platform that allows users to create, share, and read blog .",
+    "technologies": ["Vue", "Firebase", "JavaScript"],
+    "image": "Untitled.png",
+    "github": "https://github.com/your-repo/blog-platform"
+  }
+]

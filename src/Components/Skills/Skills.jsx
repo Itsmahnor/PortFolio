@@ -13,10 +13,10 @@ function Skills() {
   }
   return (
     <Component>
-    <section className='skills-container py-[10rem] px-4'>
-      <h5 className='md:heading text-[4rem] text-center font-extrabold py-14'>Technical Proficiency</h5>
+    <section className='skills-container py-[10rem] px-4 h-auto' id='services'>
+      <h5 className='md:heading text-[4rem] text-center font-extrabold py-14 animate'>Technical Proficiency</h5>
       <div className='skills-content mt-16'>
-        <div className="skills">
+        <div className="skills animate1">
           {
             SkillData.skills.map((item) => (
               <SkillCard
@@ -31,7 +31,7 @@ function Skills() {
             ))
           }
         </div>
-        <div className="skills-info">
+        <div className="skills-info animate2">
           <SkillsInfo
           heading={selectedSkills.title}
           skills={selectedSkills.skills}

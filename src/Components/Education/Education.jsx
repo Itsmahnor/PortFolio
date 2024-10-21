@@ -5,9 +5,9 @@ import './Education.css'
 
 function Education() {
   return ( 
-    <section className="education">
+    <section className="education animate" id="education">
       <h2 className="md:heading text-[4rem] text-center font-extrabold">Education</h2>
-      <div className="timeline-items">
+      <div className="timeline-items animate">
         {educationData.map((item, index) => (
           <div className="timeline-item" key={index}>
             <div className="timeline-dot"></div>

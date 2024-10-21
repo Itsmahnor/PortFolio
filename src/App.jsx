@@ -6,6 +6,10 @@ import NavBar from './Components/Navbar/Navbar'
 import Header from './Components/Header/Header'
 import Education from './Components/Education/Education'
 import Skills from './Components/Skills/Skills'
+import Projects from './Components/Projects/Project'
+
+import AboutMe from './Components/Contact/AboutMe'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   
@@ -17,6 +21,9 @@ function App() {
       <Header />
       <Education />
       <Skills />
+      <Projects />
+     <AboutMe />
+     <Footer />
     </div>
 
     </>
