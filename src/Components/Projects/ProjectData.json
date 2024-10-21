@@ -1,16 +1,16 @@
 [
   {
-    "title": "E-Commerce Website",
-    "description": "An online platform that allows users to shop for products and .",
-    "technologies": ["HTML", "CSS", "JavaScript"],
-    "image": "Untitled.png",
+    "title": "E-Commerce Store",
+    "description": "An online platform that allows users to shop for products.",
+    "technologies": ["React", "Tailwind", "CSS"],
+    "image": "ecommerce.png",
     "github": "https://github.com/your-repo/e-commerce"
   },
   {
-    "title": "Portfolio Website",
+    "title": "Social Media",
     "description": "A personal website that showcases my work and skills.",
-    "technologies": ["React", "Tailwind", "JavaScript"],
-    "image": "Untitled.png",
+    "technologies": ["React", "Tailwind", "Bootstrap"],
+    "image": "socialmedia.png",
     "github": "https://github.com/your-repo/portfolio"
   },
   {
