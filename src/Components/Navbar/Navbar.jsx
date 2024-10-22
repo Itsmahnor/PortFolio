@@ -5,6 +5,7 @@ import { IoClose } from "react-icons/io5";
 import MobileNav from "./MobileNav";
 import { Link } from 'react-scroll'; 
 import './Navbar.css'
+import { FaArrowCircleDown } from "react-icons/fa";
 
 function NavBar() {
   const [Menu, setMenu] = useState(false);
@@ -23,7 +24,7 @@ function NavBar() {
             </h1>
           </div>
           <div className="w-[50%] nav">
-            <ul className="flex justify-around md:text-[2rem] cursor-pointer font-medium">
+            <ul className="flex justify-around text-[1rem] md:text-[2rem] cursor-pointer font-medium">
               <li className="text-[#00ffee] border-b-2 border-[#00ffee]">
                 <Link to="home" smooth={true} duration={500}>Home</Link>
               </li>
@@ -38,6 +39,9 @@ function NavBar() {
               </li>
               <li className="hover:text-[#00ffee] hover:border-b-2 logo border-[#00ffee] animation">
                 <Link to="about" smooth={true} duration={500}>About</Link>
+              </li>
+              <li className="hover:text-[#00ffee]  logo mt-4 text-[2rem]">
+                <Link to="about" smooth={true} duration={1500}><FaArrowCircleDown /></Link>
               </li>
             </ul>
           </div>

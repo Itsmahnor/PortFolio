@@ -1,30 +1,30 @@
 [
   {
     "title": "E-Commerce Store",
-    "description": "An online platform that allows users to shop for products.",
+    "description": "An online platform for browsing, adding to cart, and purchasing products. Built with React and Tailwind for a responsive design.",
     "technologies": ["React", "Tailwind", "CSS"],
     "image": "ecommerce.png",
-    "github": "https://github.com/your-repo/e-commerce"
+    "github": "https://github.com/Itsmahnor/React-E-commerce.git"
   },
   {
-    "title": "Social Media",
-    "description": "A personal website that showcases my work and skills.",
+    "title": "Social Media Platform",
+    "description": "A social media site for sharing posts and connecting with others. Built with React, Tailwind, and Bootstrap.",
     "technologies": ["React", "Tailwind", "Bootstrap"],
     "image": "socialmedia.png",
     "github": "https://github.com/your-repo/portfolio"
   },
   {
-    "title": "Task Management App",
-    "description": "A productivity tool to manage and organize tasks efficiently.",
-    "technologies": ["React", "Node.js", "MongoDB"],
-    "image": "Untitled.png",
+    "title": "Mobile Store",
+    "description": "A tool for managing tasks efficiently with a clean, user-friendly interface. Built with HTML, CSS, and Bootstrap.",
+    "technologies": ["HTML", "CSS", "Bootstrap"],
+    "image": "MobileStore.png",
     "github": "https://github.com/your-repo/task-manager"
   },
   {
-    "title": "Blog Platform",
-    "description": "A platform that allows users to create, share, and read blog .",
-    "technologies": ["Vue", "Firebase", "JavaScript"],
-    "image": "Untitled.png",
+    "title": "Travel Webpage",
+    "description": "A blogging platform for creating and reading blog posts. Built with HTML, CSS, and JavaScript.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "TravelWebpage.png",
     "github": "https://github.com/your-repo/blog-platform"
   }
 ]

@@ -19,10 +19,10 @@ function Projects() {
           and manage projects effectively.</p>
 <div className="w-100 px-5 flex justify-center mt-5 flex-wrap ">
 {projectdetails.map((project, index) => (
-          <div key={index} className="md:w-[700px] h-auto flex mb-5 animate">
+          <div key={index} className="md:w-[700px] h-full flex flex-wrap   sm:mt-5 mb-5 animate m-5">
             <div className="mb-5 ">
               <div className="flex">
-                <h1 className="text-[2rem] font-medium flex-1">{project.title}</h1>
+                <h1 className="md:text-[2rem] font-medium flex-1">{project.title}</h1>
                 <ul className="flex justify-around flex-1 md:text-[1.5rem] mb-1">
                   {project.technologies.map((tech, i) => (
                     <li key={i} className="bg-[#00ffee] p-2 rounded-md inline-block text-black font-medium cursor-pointer  ">
@@ -31,7 +31,7 @@ function Projects() {
                   ))}
                 </ul>
               </div>
-              <div className="border rounded-md  ">
+              <div className="border rounded-md   ">
                 <img src={project.image} alt={project.title} className="p-2 rounded-sm " />
               </div>
               <div className="mt-4">
@@ -39,11 +39,12 @@ function Projects() {
               </div>
             </div>
             <div className="flex justify-center items-center m-4">
-              <div className="gap-5 flex flex-col text-[3rem] p-2">
+              <div className="gap-5 flex   text-[3rem] p-2">
                 <a href={project.github} target="_blank" rel="noopener noreferrer">
-                  <FaGithub />
+                  <FaGithub className="border rounded-full p-1" />
                 </a>
-                <FaArrowAltCircleRight className="-rotate-45 border rounded-full p-1" />
+                <a href=""><FaArrowAltCircleRight className="-rotate-45 border rounded-full p-1" /></a>
+                
               </div>
             </div>
     </div>))}

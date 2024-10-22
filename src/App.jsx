@@ -10,6 +10,7 @@ import Projects from './Components/Projects/Project'
 
 import AboutMe from './Components/Contact/AboutMe'
 import Footer from './Components/Footer/Footer'
+import ContactForm from './Components/Contact/Contact'
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
       <Skills />
       <Projects />
      <AboutMe />
+     <ContactForm />
      <Footer />
     </div>
 
