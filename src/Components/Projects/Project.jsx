@@ -43,7 +43,7 @@ function Projects() {
                 <a href={project.github} target="_blank" rel="noopener noreferrer">
                   <FaGithub className="border rounded-full p-1" />
                 </a>
-                <a href=""><FaArrowAltCircleRight className="-rotate-45 border rounded-full p-1" /></a>
+                <a href={project.Link}><FaArrowAltCircleRight className="-rotate-45 border rounded-full p-1" target="_blank" rel="noopener noreferrer"/></a>
                 
               </div>
             </div>
