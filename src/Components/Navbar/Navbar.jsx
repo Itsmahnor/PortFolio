@@ -40,8 +40,11 @@ function NavBar() {
               <li className="hover:text-[#00ffee] hover:border-b-2 logo border-[#00ffee] animation">
                 <Link to="about" smooth={true} duration={500}>About</Link>
               </li>
+              <li className="hover:text-[#00ffee] hover:border-b-2 logo border-[#00ffee] animation">
+                <Link to="contact" smooth={true} duration={500}>Contact</Link>
+              </li>
               <li className="hover:text-[#00ffee]  logo mt-4 text-[2rem]">
-                <Link to="about" smooth={true} duration={1500}><FaArrowCircleDown /></Link>
+                <Link to="contact" smooth={true} duration={1500}><FaArrowCircleDown /></Link>
               </li>
             </ul>
           </div>

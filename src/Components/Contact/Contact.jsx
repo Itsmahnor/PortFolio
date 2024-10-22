@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactForm = () => {
   return (
-    <div className=" md:h-[70vh] h-auto flex justify-center items-center bg-[#121212] py-12 ">
+    <div className=" md:h-[70vh] h-auto flex justify-center items-center bg-[#121212] py-12 " id='contact'>
       <div className="w-full max-w-lg bg-[#1a1a1a] p-8 rounded-lg shadow-lg animate1">
         <h1 className="text-4xl font-bold text-center text-[#00ffff] mb-8">Get in Touch</h1>
         

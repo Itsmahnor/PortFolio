@@ -5,15 +5,15 @@
     "technologies": ["React", "Tailwind", "CSS"],
     "image": "ecommerce.png",
     "github": "https://github.com/Itsmahnor/React-E-commerce.git",
-    "Link":"https://storemobile.netlify.app"  
+    "Link":"https://ecommercestore1122.netlify.app"  
   },
   {
     "title": "Social Media Platform",
     "description": "A social media site for sharing posts and connecting with others. Built with React, Tailwind, and Bootstrap.",
     "technologies": ["React", "Tailwind", "Bootstrap"],
     "image": "socialmedia.png",
-    "github": "https://github.com/your-repo/portfolio",
-    "Link":"https://storemobile.netlify.app"    
+    "github": "https://github.com/Itsmahnor/Social-MediaApp.git",
+    "Link":"https://socialmediaapp145.netlify.app"    
   },
   {
     "title": "Mobile Store",
@@ -28,7 +28,15 @@
     "description": "A blogging platform for creating and reading blog posts. Built with HTML, CSS, and JavaScript.",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "image": "TravelWebpage.png",
-    "github": "https://github.com/your-repo/blog-platform",
-    "Link":"https://storemobile.netlify.app"  
+    "github": "https://github.com/Itsmahnor/Travel-Agency.git",
+    "Link":"https://itsmahnor.github.io/Travel-Agency/"  
+  },
+  {
+    "title": "JavaScript Projects",
+    "description": "Mini Projects based on javascript.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "js.png",
+    "github": "https://github.com/Itsmahnor/Js-Projects.git",
+    "Link":"https://itsmahnor.github.io/Mini-Project-Js/"  
   }
 ]

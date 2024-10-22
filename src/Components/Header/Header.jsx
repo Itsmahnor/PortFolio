@@ -14,14 +14,23 @@ function Header() {
      <p className="md:text-[1.3rem] mt-5">A Frontend Developer specializes in creating user-facing interfaces and experiences using technologies like HTML, CSS, JavaScript, and frameworks like React.
     </p>
      <div className="flex gap-4 text-[2rem] mt-11 text-[#00ffee] justify-center">
-     <p className="border border-[#00ffee] p-2 rounded-full animatiom "><FaInstagram /></p>
-     <p className="border border-[#00ffee] p-2 rounded-full animatiom  "><FaGithub /></p>
+      <a href=""> <p className="border border-[#00ffee] p-2 rounded-full animatiom "><FaInstagram /></p></a>
+    <a href="https://github.com/Itsmahnor"> <p className="border border-[#00ffee] p-2 rounded-full animatiom  "><FaGithub /></p></a>
+    
      <p className="border border-[#00ffee] p-2 rounded-full animatiom "><FaLinkedin /> </p>
      <p className="border border-[#00ffee] p-2 rounded-full animatiom  "><FaFacebook /></p>
      </div>
      <div className="text-center mt-11  flex justify-center  text-[1.5rem]"> 
         <button className="bg-[#00ffee] text-black rounded-2xl py-2 px-10  font-medium logo custom-shadow1 mr-4 animatiom">Hire</button>
-        <button className="ml-2 bg-[#1f1e1e] text-[#00ffee] rounded-2xl py-2 px-10 border border-[#00ffee]   font-medium logo animatiom">Connect</button>
+        <a 
+  className="ml-2 cursor-pointer bg-[#1f1e1e] text-[#00ffee] rounded-2xl py-2 px-10 border border-[#00ffee] font-medium logo animation"
+  href="https://www.linkedin.com/in/mahnoor-sarfraz-007bb0303"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Connect
+</a>
+
       </div>
       </div>
      </div>
