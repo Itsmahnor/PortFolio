@@ -32,7 +32,7 @@ html{
  .Hidden{
   display: none;
  }
- @media (max-width:1052px) {
+ @media (max-width:1629px) {
   .nav{
     display: none;
   }
