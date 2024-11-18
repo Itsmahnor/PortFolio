@@ -10,7 +10,11 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-   
+  
+    if (!emailRef.current.value.endsWith("@gmail.com") || !nameRef || !emailRef || !messageRef) {
+      alert("Enter a valid email address");
+      return;
+    }
 
     // Send the email via EmailJS
     emailjs
@@ -18,9 +22,7 @@ const ContactForm = () => {
         "service_2ar60go", 
         "template_2lcctok",
         formRef.current, 
-        "JFq1OCMy1YuA4kKpf",    
-      
-    
+        "JFq1OCMy1YuA4kKpf"
       )
       .then(
         (result) => {
