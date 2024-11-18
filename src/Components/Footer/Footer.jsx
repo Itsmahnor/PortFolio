@@ -15,19 +15,28 @@ const Footer = () => {
         <div className='md:text-[1.5rem]'>
           <h4 className="md:text-[2rem] text-white mb-4 ">Socials</h4>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:underline hover:border-b-2 logo border-[#00ffee]">Github</a></li>
-            <li><a href="#" className="hover:underline hover:border-b-2 logo border-[#00ffee]">LinkedIn</a></li>
-            <li><a href="#" className="hover:underline hover:border-b-2 logo border-[#00ffee]">Medium</a></li>
-            <li><a href="#" className="hover:underline hover:border-b-2 logo border-[#00ffee]">Mail</a></li>
+            <li><a href="https://github.com/Itsmahnor" className="hover:underline hover:border-b-2 logo border-[#00ffee]">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/mahnoor-sarfraz-007bb0303" className="hover:underline hover:border-b-2 logo border-[#00ffee]">LinkedIn</a></li>
+            <li><a href="https://leetcode.com/u/myaccount1122/" className="hover:underline hover:border-b-2 logo border-[#00ffee]">LeetCode</a></li>
+            <li><a href="mailto:mahnoorsarfraz23@gmail.com" className="hover:underline hover:border-b-2 logo border-[#00ffee]">Mail</a></li>
           </ul>
         </div>
         <div className='md:text-[1.5rem] '>
           <h4 className=" md:text-[2rem] text-white mb-4 ">Pages</h4>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:underline">Home</a></li>
-            <li><a href="#" className="hover:underline">About</a></li>
-            <li><a href="#" className="hover:underline">Work</a></li>
-            <li><a href="#" className="hover:underline">Contact</a></li>
+          
+          <li className="hover:text-[#00ffee] cursor-pointer">
+                <Link to="home" smooth={true} duration={500}>Home</Link>
+              </li>
+              <li className="hover:text-[#00ffee] cursor-pointer  ">
+                <Link to="projects" smooth={true} duration={500}>Projects</Link>
+              </li>
+              <li className="hover:text-[#00ffee] cursor-pointer ">
+                <Link to="about" smooth={true} duration={500}>About</Link>
+              </li>
+              <li className="hover:text-[#00ffee] cursor-pointer ">
+                <Link to="contact" smooth={true} duration={500}>Contact</Link>
+              </li>
             
           </ul>
 

@@ -5,14 +5,7 @@ html{
   font-size: 80%;
   overflow-x: hidden;
 }
-/* navbar start */
 
-/* Mobile nav end */
-/* navbar end */
-
-/* header end */
-
-/*  */
   ::-webkit-scrollbar{
     width: 15px;
   }

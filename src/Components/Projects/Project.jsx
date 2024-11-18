@@ -4,7 +4,7 @@ import './Project.css'
 import projectdetails from './ProjectData.json'
 function Projects() {
   return ( 
-    <div className="h-auto">
+    <div className="h-auto" id="projects">
 <Component>
 <h5
   className="md:heading text-[4rem] font-extrabold ml-8 hover:text-[#00ffee] hover:border-b-4 inline-block cursor-pointer text-shadow animate"
