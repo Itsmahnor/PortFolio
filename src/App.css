@@ -25,7 +25,7 @@ html{
  .Hidden{
   display: none;
  }
- @media (max-width:1629px) {
+ @media (max-width:1229px) {
   .nav{
     display: none;
   }

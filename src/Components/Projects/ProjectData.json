@@ -8,7 +8,7 @@
     "Link":"https://ecommercestore1122.netlify.app"  
   },
   {
-    "title": "Social Media Platform",
+    "title": "Social Media ",
     "description": "A social media site for sharing posts and connecting with others. Built with React, Tailwind, and Bootstrap.",
     "technologies": ["React", "Tailwind", "Bootstrap"],
     "image": "socialmedia.png",
