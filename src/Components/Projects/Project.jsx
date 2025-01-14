@@ -12,7 +12,7 @@ function Projects() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Show 3 divs per slide
+    slidesToShow: 3,
     slidesToScroll: 1, // Scroll 1 slide at a time
     autoplay: true,
     autoplaySpeed: 5000,
