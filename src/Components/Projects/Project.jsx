@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 function Projects() {
+  console.log(projectdetails)
   // Slider settings
   const settings = {
     dots: true,

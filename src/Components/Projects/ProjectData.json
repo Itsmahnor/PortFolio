@@ -1,5 +1,30 @@
 [
   {
+    "title": "Educational Website",
+    "description": "A responsive educational website built with React, featuring dynamic content and user-friendly navigation. Styled using Tailwind CSS.",
+    "technologies": ["React","Express","MongoDb"],
+    "image": "edu.png",
+    "github": "https://github.com/Itsmahnor/EduSite",
+    "Link": "https://edu-site-ivory.vercel.app/"
+  },
+  {
+    "title": "Template",
+    "description": "A fully responsive React template with clean and modular components, designed for various use cases. Styled using Tailwind CSS.",
+    "technologies": ["React", "Tailwind","Bootstrap"],
+    "image": "figma.png",
+    "github": "https://github.com/Itsmahnor/FigmaDesign",
+    "Link": "https://figma-design-ochre.vercel.app/"
+  },
+  {
+    "title": "To-Do App",
+    "description": "A simple To-Do app built with React that allows users to add, delete, and manage tasks. Styled using Tailwind CSS.",
+    "technologies": ["React","Express","MongoDb"],
+    "image": "Todo.png",
+    "github": "https://github.com/Itsmahnor/TodoApp",
+    "Link": "https://todo-app-project-tau.vercel.app/"
+  }
+,
+  {
     "title": "E-Commerce Store",
     "description": "An online platform for browsing, adding to cart, and purchasing products. Built with React and Tailwind for a responsive design.",
     "technologies": ["React", "Tailwind", "CSS"],
@@ -7,7 +32,22 @@
     "github": "https://github.com/Itsmahnor/React-E-commerce.git",
     "Link":"https://ecommercestore1122.netlify.app"  
   },
- 
+  {
+    "title": "Travel Journel",
+    "description": "it is mini static page which describes how to pass props in react.",
+    "technologies": ["React",  "CSS"],
+    "image": "jouney.png",
+    "github": "https://github.com/Itsmahnor/React-Project2",
+    "Link":"https://react-project2-nu.vercel.app/"  
+  },
+  {
+    "title": "Tenzies",
+    "description": "it is a dice-matching game built in React with interactive state management.",
+    "technologies": ["React",  "CSS"],
+    "image": "tenzies.png",
+    "github": "https://github.com/Itsmahnor/Tenzies",
+    "Link":"https://tenzies-kappa-topaz.vercel.app/"  
+  },
   {
     "title": "Mobile Store",
     "description": "A tool for managing tasks efficiently with a clean, user-friendly interface. Built with HTML, CSS, and Bootstrap.",
@@ -32,46 +72,14 @@
     "github": "https://github.com/Itsmahnor/Js-Projects.git",
     "Link":"https://itsmahnor.github.io/Mini-Project-Js/"  
   },
-    {
-      "title": "E-Commerce Store",
-      "description": "An online platform for browsing, adding to cart, and purchasing products. Built with React and Tailwind for a responsive design.",
-      "technologies": ["React", "Tailwind", "CSS"],
-      "image": "ecommerce.png",
-      "github": "https://github.com/Itsmahnor/React-E-commerce.git",
-      "Link": "https://ecommercestore1122.netlify.app"
-    },
-    {
-      "title": "Social Media",
-      "description": "A social media site for sharing posts and connecting with others. Built with React, Tailwind, and Bootstrap.",
-      "technologies": ["React", "Tailwind", "Bootstrap"],
-      "image": "socialmedia.png",
-      "github": "https://github.com/Itsmahnor/Social-MediaApp.git",
-      "Link": "https://socialmediaapp145.netlify.app"
-    },
-    {
-      "title": "Mobile Store",
-      "description": "A tool for managing tasks efficiently with a clean, user-friendly interface. Built with HTML, CSS, and Bootstrap.",
-      "technologies": ["HTML", "CSS", "Bootstrap"],
-      "image": "MobileStore.png",
-      "github": "https://github.com/Itsmahnor/Mobile-phone-store.git",
-      "Link": "https://storemobile.netlify.app"
-    },
-    {
-      "title": "Travel Webpage",
-      "description": "A blogging platform for creating and reading blog posts. Built with HTML, CSS, and JavaScript.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "image": "TravelWebpage.png",
-      "github": "https://github.com/Itsmahnor/Travel-Agency.git",
-      "Link": "https://itsmahnor.github.io/Travel-Agency/"
-    },
-    {
-      "title": "JavaScript Projects",
-      "description": "Mini Projects based on JavaScript.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "image": "js.png",
-      "github": "https://github.com/Itsmahnor/Js-Projects.git",
-      "Link": "https://itsmahnor.github.io/Mini-Project-Js/"
-    }
+  {
+    "title": "Tunes Website",
+    "description": "Mini Project based on javascript.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "tune.png",
+    "github": "https://github.com/Itsmahnor/myTunes",
+    "Link":"https://itsmahnor.github.io/myTunes/"  
+  }
   
   
 ]
