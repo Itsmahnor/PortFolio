@@ -13,7 +13,7 @@ function Projects() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1, // Scroll 1 slide at a time
     autoplay: true,
     autoplaySpeed: 5000,
@@ -22,7 +22,7 @@ function Projects() {
       {
         breakpoint: 1230, // Medium screens
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
       {
@@ -36,7 +36,7 @@ function Projects() {
 
   return (
     <div className="h-auto" id="projects">
- <div className="w-100 h-auto lg:px-[10rem] md:px-[2rem] px-2 py-4">
+ <div className="w-100 h-auto lg:px-[10rem] md:px-[2rem] px-16 py-4">
   <div className="w-full mb-16">
   <h5
           className=" text-[4rem] font-extrabold ml-8 hover:text-[#00ffee] hover:border-b-4 inline-block cursor-pointer text-shadow animate"
@@ -55,7 +55,7 @@ function Projects() {
             {projectdetails.map((project, index) => (
               <div
                 key={index}
-                className=" h-full sm:mt-5 mb-5  "
+                className=" h-full sm:mt-5 mb-5 md:px-14 lg:px-4 "
               >
                 <div className="mb-5">
                   <div className="flex">

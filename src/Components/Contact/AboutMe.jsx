@@ -3,7 +3,7 @@ import './AboutMe.css'
 
 function AboutMe() {
   return (
-    <div className="w-full h-auto  flex flex-col items-center justify-center bg-[#00ffee]  text-black py-10 md:h-[50vh]" id='about'>
+    <div className="w-full h-auto  flex flex-col items-center justify-center bg-[#00ffee]  text-black py-16 md:h-[70vh]" id='about'>
       <h2 className="text-[4rem] font-bold mb-10 animate ">About Me</h2>
       <div className="w-[80%] md:w-[60%] text-center">
         <p className="md:text-[1.5rem]  text-[1rem] leading-relaxed animate">

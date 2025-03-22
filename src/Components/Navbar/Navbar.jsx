@@ -16,15 +16,15 @@ function NavBar() {
 
   return (
     <>
-      <Component>
-        <div className="flex justify-between h-auto">
-          <div className="md:w-[50%] nav-animation">
+     
+        <div className="flex justify-between h-[20vh] px-14 w-[100vw]">
+          <div className="md:w-[30vw] w-[50vw] nav-animation">
             <h1 className="md:text-[3rem] text-[2rem] py-3">Mahnoor 
               <span className="text-[#00ffee] font-extrabold cursor-pointer custom-shadow logo"> Sarfraz</span>
             </h1>
           </div>
-          <div className="w-[50%] nav">
-            <ul className="flex justify-around text-[1rem] md:text-[2rem] cursor-pointer font-medium">
+          <div className="md:w-[60vw] w-[50vw] nav py-5 ">
+            <ul className="flex justify-around gap-6 text-[1rem] md:text-[2rem] cursor-pointer font-medium">
               <li className="text-[#00ffee] border-b-2 border-[#00ffee]">
                 <Link to="home" smooth={true} duration={500}>Home</Link>
               </li>
@@ -56,7 +56,7 @@ function NavBar() {
             )}
           </div>
         </div>
-      </Component>
+   
       <MobileNav Active={Menu} ToggleBtn={ToggleBtn} />
     </>
   );

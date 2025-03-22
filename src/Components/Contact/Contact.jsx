@@ -43,7 +43,7 @@ const ContactForm = () => {
 
   return (
     <div
-      className="md:h-[70vh] h-auto flex justify-center items-center bg-[#121212] py-12"
+      className="md:h-[90vh] h-auto flex justify-center items-center bg-[#121212] py-12"
       id="contact"
     >
       <form
