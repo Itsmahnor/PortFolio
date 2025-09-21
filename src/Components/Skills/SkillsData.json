@@ -6,8 +6,10 @@
       "skills": [
         { "skill": "HTML5", "percentage": "80%" },
         { "skill": "CSS3 (Sass/SCSS)", "percentage": "90%" },
+        { "skill": "Tailwind CSS", "percentage": "80%" },
         { "skill": "JavaScript", "percentage": "75%" },
-        { "skill": "React.js", "percentage": "80%" }
+        { "skill": "React.js", "percentage": "80%" },
+        { "skill": "React Native", "percentage": "70%" }
       ]
     },
     {
@@ -19,17 +21,16 @@
       ]
     },
     {
-      "title": "Soft Skills",
+      "title": "Tools",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTwe0DzWyPYg0xwMn40LuYcMtJn-wapZZs1A&s",
       "skills": [
         { "skill": "Git & GitHub", "percentage": "85%" },
         { "skill": "Visual Studio Code", "percentage": "75%" },
-        { "skill": "Webpack", "percentage": "60%" },
         { "skill": "Responsive Design", "percentage": "70%" }
       ]
     },
     {
-      "title": "Tools",
+      "title": "Soft Skills",
       "icon": "https://img.freepik.com/premium-vector/soft-skills-icon_946691-2220.jpg",
       "skills": [
         { "skill": "Problem Solving", "percentage": "80%" },

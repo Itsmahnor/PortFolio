@@ -1,6 +1,6 @@
 [
   {
-    "title": "Educational Website",
+    "title": "LMS",
     "description": "A responsive educational website built with React, featuring dynamic content and user-friendly navigation. Styled using Tailwind CSS.",
     "technologies": ["React","Express","MongoDb"],
     "image": "edu.png",
@@ -8,7 +8,7 @@
     "Link": "https://edu-site-ivory.vercel.app/"
   },
   {
-    "title": "Template",
+    "title": "Farmie",
     "description": "A fully responsive React template with clean and modular components, designed for various use cases. Styled using Tailwind CSS.",
     "technologies": ["React", "Tailwind","Bootstrap"],
     "image": "figma.png",
@@ -16,12 +16,12 @@
     "Link": "https://figma-design-ochre.vercel.app/"
   },
   {
-    "title": "To-Do App",
+    "title": "Mern Estate",
     "description": "A simple To-Do app built with React that allows users to add, delete, and manage tasks. Styled using Tailwind CSS.",
     "technologies": ["React","Express","MongoDb"],
-    "image": "Todo.png",
+    "image": "mernestate.png",
     "github": "https://github.com/Itsmahnor/TodoApp",
-    "Link": "https://todo-app-project-tau.vercel.app/"
+    "Link": "https://mernestateproject.netlify.app/"
   }
 ,
   {
