@@ -1,11 +1,12 @@
 [
-  {
-    "title": "LMS",
+ 
+   {
+    "title": "PresCripto",
     "description": "A responsive educational website built with React, featuring dynamic content and user-friendly navigation. Styled using Tailwind CSS.",
     "technologies": ["React","Express","MongoDb"],
-    "image": "edu.png",
-    "github": "https://github.com/Itsmahnor/EduSite",
-    "Link": "https://edu-site-ivory.vercel.app/"
+    "image": "prescripto.png",
+    "github": "https://github.com/Itsmahnor/Prescripto",
+    "Link": "https://prescriptouser.netlify.app/"
   },
   {
     "title": "Farmie",
